@@ -12,6 +12,7 @@ body{
 // primer contenedor
 #content1{
     background-color:$yellow;
+    height: 800px;
 }
 a{
     color: $black;
@@ -46,13 +47,15 @@ h2{
 }
 #tablet{
     float: right;
-    margin-top: -150px;
+    margin-top: -295px;
+    margin-right: 7%;
+
 }
 #iconos{
     margin-top: 40px;
 }
-.oneP{
-    text-align: justify;
+.box{
+    width: 50%;
 }
 
 // segundo contenedor
@@ -62,13 +65,100 @@ h2{
     font-size: 1em;
 }
 .secoundTittle{
-    margin-top: 168px;
-    text-align: center;
+    @include secundTittle($black,95px);
 }
 .list{
     float: left;
+    width: 33.33%;
+
+}
+.tittlegrey{
+    color: $letra;
 }
 // footer
 #container3{
     background-color: $black;
+    position: relative;
+}
+.boxp{
+    margin-top: 133px;
+    position: relative;
+    p{
+        color: $white;
+        position: relative;
+        line-height: 2em;
+    }
+}
+.listF{}
+.list-footer{
+    
+    a{
+        color: $white;
+    }
+}
+.wrapper1{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.secoundTittle2{
+    @include secundTittle($yellow,95px);
+}
+.input{
+    
+    width: 70%;
+    height:50px;
+    border-radius: 3px;
+    border-color: white;
+    border: 0;
+}
+.button{
+    width: 18%;
+    height: 51px;
+    border-radius: 3px;
+    border-color: $yellow;
+    background-color: $yellow;
+    border: 0;
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+// sprite
+.sprite{
+    background-image: url(../img/img8.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+.sprite-fb{
+    
+    width: 41px;
+    height: 60px;
+    background-position: -2px 0px;
+    
+}
+.sprite-rss{
+    width: 41px;
+    height: 60px;
+    background-position: -68px 0px;
+}
+.sprite-goo{
+    width: 41px;
+    height: 60px;
+    background-position: -131px 0px;
+}
+.sprite-p{
+    width: 41px;
+    height: 60px;
+    background-position: -200px 0px;
+}
+.Rsocial{
+    text-align: center;
+    margin-top: 78px;
+}
+.listaRS{
+    a{
+        color: transparent;
+    }
 }

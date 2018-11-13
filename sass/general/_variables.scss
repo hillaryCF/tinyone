@@ -1,3 +1,10 @@
 $yellow: #fcdb00;
 $white:#ffffff;
 $black:#000000;
+$letra:#898989;
+
+@mixin secundTittle ($color, $top){
+    padding-top: $top;
+    text-align: center;
+    color:$color;
+}
