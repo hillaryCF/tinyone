@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// wrapper
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// primer contenedor
+#content1{
+    background-color:$yellow;
+}
+a{
+    color: $black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+.menue{
+    float: right;
+    list-style: none;
+    margin: 46px 0 0;
+    padding-top: 35px;
+}
+.menue li{
+    display: inline;
+    margin-right: 72px;
+    
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+    
+}
+#logo{
+    padding-top: 56px;
+}
+h2{
+    margin: 0;
+    margin-top: 130px;
+    text-align: left;
+}
+#tablet{
+    float: right;
+    margin-top: -150px;
+}
+#iconos{
+    margin-top: 40px;
+}
+.oneP{
+    text-align: justify;
+}
+
+// segundo contenedor
+#container2{
+    background-color: $white;
+    text-align: center;
+    font-size: 1em;
+}
+.secoundTittle{
+    margin-top: 168px;
+    text-align: center;
+}
+.list{
+    float: left;
+}
+// footer
+#container3{
+    background-color: $black;
+}
