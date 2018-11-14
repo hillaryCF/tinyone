@@ -61,8 +61,19 @@ h2 {
   color: #000000; }
 
 .list {
+  display: inline-block;
+  width: 30.33%;
+  text-align: left;
+  margin-top: 90px; }
+  .list p {
+    margin-left: 80px;
+    margin-top: 19px; }
+  .list h3 {
+    margin-left: 80px; }
+
+.imageList {
   float: left;
-  width: 33.33%; }
+  margin-top: 17px; }
 
 .tittlegrey {
   color: #898989; }

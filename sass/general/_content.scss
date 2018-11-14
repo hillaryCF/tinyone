@@ -66,11 +66,25 @@ h2{
 }
 .secoundTittle{
     @include secundTittle($black,95px);
+
 }
 .list{
-    float: left;
-    width: 33.33%;
+    display: inline-block;
+    width: 30.33%;
+    text-align: left;
+    margin-top: 90px;
+    p{
+        margin-left: 80px;
+        margin-top: 19px;
+    }
+    h3{
+        margin-left: 80px;
+    }
+}
 
+.imageList{
+    float: left;
+    margin-top: 17px;
 }
 .tittlegrey{
     color: $letra;
@@ -89,7 +103,7 @@ h2{
         line-height: 2em;
     }
 }
-.listF{}
+
 .list-footer{
     
     a{
